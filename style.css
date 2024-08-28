@@ -518,7 +518,7 @@ margin: auto ;
 }
 
 .section4__submit:active{
-    border: 1px solid #fff;
+    border: none;
     background-color: #fff;
 }
 
