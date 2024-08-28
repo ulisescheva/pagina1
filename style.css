@@ -185,7 +185,8 @@ display: none;
     text-align: start;
     font-family: 'pacifico';
     margin: auto;
-    min-width: 200px;
+    min-width: 250px;
+    max-width: 500px;
 }
 
 .cont{
