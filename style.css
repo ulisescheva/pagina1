@@ -489,11 +489,12 @@ margin: auto ;
     font-family: 'montserrat';
     background-color: #ddd ;
     border-bottom: 2px solid #2e9;
+    outline: 1px solid #222;
     transition: outline, backgraund-color, 0.3s ease;
 
 }
 
-.section4__input:focus, .section4__textarea:focus{
+.section4__input:active, .section4__textarea:active{
     outline: none;
     background-color: #fff;
 }
