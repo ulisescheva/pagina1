@@ -488,15 +488,13 @@ margin: auto ;
     font-family: 'montserrat';
     background-color: #ddd ;
     border-bottom: 2px solid #2e9;
-    outline: 1px solid #222;
     transition: outline, backgraund-color, 0.3s ease;
 
 }
 
-.section4__input:active, .section4__textarea:active{
+.section4__input:focus, .section4__textarea:focus{
     outline: none;
     background-color: #fff;
-    border-bottom: 2px solid #2e9;
 }
 
 .section4__textarea{
@@ -513,15 +511,14 @@ margin: auto ;
     position: relative;
     left: 60%;
     font-weight: bold;
-    border: none;
     font-family: 'montserrat';
     background-color: #2e9 ;
     border: 1px solid #222;
     transition: border, backgraund-color, 0.2 ease;
 }
 
-.section4__submit:hover{
-    border: none;
+.section4__submit:active{
+    border: 1px solid #fff;
     background-color: #fff;
 }
 
