@@ -492,7 +492,7 @@ margin: auto ;
 
 }
 
-.section4__input:hover, .section4__textarea:hover{
+.section4__input:focus, .section4__textarea:focus{
     outline: none;
     background-color: #fff;
 }
