@@ -488,11 +488,11 @@ margin: auto ;
     background-color: #ddd ;
     border: none;
     border-bottom: 2px solid #2e9;
-    transition: outline, backgraund-color, 0.3s ease;
+    transition: outline, backgraund-color, 0.1s ease;
 
 }
 
-.section4__input:focus, .section4__textarea:focus{
+.section4__input:hover, .section4__textarea:hover{
     outline: none;
     background-color: #fff;
 }
