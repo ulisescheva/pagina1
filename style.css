@@ -484,9 +484,9 @@ margin: auto ;
 .section4__input, .section4__textarea{
     padding: 7px;
     border-radius: 10px;
-    border: none;
     font-family: 'montserrat';
     background-color: #ddd ;
+    border: none;
     border-bottom: 2px solid #2e9;
     transition: outline, backgraund-color, 0.3s ease;
 
@@ -512,6 +512,7 @@ margin: auto ;
     left: 60%;
     font-weight: bold;
     font-family: 'montserrat';
+    color: #222;
     background-color: #2e9 ;
     border: 1px solid #222;
     transition: border, backgraund-color, 0.2 ease;
