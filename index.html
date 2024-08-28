@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Proyecto 01</title>
+</head>
+<body>
+    <!------------- HEADER start ------------->
+    <header class="header" >
+        <div class="header__img">
+            <img src="/Diseño Web/Scan Admit.png" alt="" >
+        </div>
+        <input type="checkbox" id="check" class="checkbox">
+        <label for="check" class="nav-label" role="button">=</label>
+        <ul class="header__lista">
+            <li class="header__lista-item"><a href="#1">Inicio</a></li>
+            <li class="header__lista-item"><a href="#2">Proyectos</a></li>
+            <li class="header__lista-item"><a href="#3">Contacto</a></li>
+            <li class="header__lista-item"><a href="#">Login</a></li>
+        </ul>
+    </header>
+    <!------------- HEADER end ------------->
+
+    <!------------- SECTION 1 start con GRID------------->
+    <section class="section1-container" id="1">
+        <div class="section">
+            <div class="section__img-container">
+                <img src="/Proyectos para aprender/01- Proyecto 1/img/CIRO.jpg" alt="">
+            </div>
+            <h1 class="section__titulo">
+                Ulises Chevalley
+            </h1>
+            <h2 class="section__subtitulo">Desarrollador Web</h2>
+            <div class="cont"   >
+                <p class="section__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laboriosam ipsam voluptates maiores quaerat aspernatur quam, perspiciatis eius magni quod eos, aperiam iusto sequi fugiat cumque. Exercitationem, delectus. Possimus, enim?</p>
+            </div>
+            <div class="porcentajes">
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-80"></div>
+                    </div>
+                    <label class="label-text">HTML</label>
+                </div>
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-70"></div>
+                    </div>
+                    <label class="label-text">CSS</label>
+                </div>
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-30"></div>
+                    </div>
+                    <label class="label-text">JS</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------- SECTION 1 end con GRID------------->
+
+    <!------------- SECTION 2 start con FLEX------------->
+    <section class="section2">
+        <div class="section__img-container">
+            <img src="/CIRO.jpg" alt="">
+        </div>
+
+
+        <div class="div-cont">
+            <h1 class="section__titulo s-t">
+                Ulises Chevalley
+            </h1>
+            <h2 class="section__subtitulo s-st">Desarrollador Web</h2>
+            <div class="cont">
+                <p class="section__texto s-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laboriosam ipsam voluptates maiores quaerat aspernatur quam, perspiciatis eius magni quod eos, aperiam iusto sequi fugiat cumque. Exercitationem, delectus. Possimus, enim?</p>
+            </div>
+            <div class="porcentajes2">
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-80"></div>
+                    </div>
+                    <label class="label-text">HTML</label>
+                </div>
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-70"></div>
+                    </div>
+                    <label class="label-text">CSS</label>
+                </div>
+                <div class="barra">
+                    <div class="borde">
+                        <div class="relleno relleno-30"></div>
+                    </div>
+                    <label class="label-text">JS</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------- SECTION 2 end con FLEX------------->
+
+    <!------------- SECTION 3 start -- PROYECTOS ------------->
+    <section class="section3" id="2">
+        <h3 class="section3__titulo">Proyectos</h3>
+        <div class="section3__conteiner">
+            <div class="section2__item">Proyecto 1</div>
+            <div class="section2__item">Proyecto 2</div>
+            <div class="section2__item">Proyecto 3</div>
+            <div class="section2__item">Proyecto 4</div>
+            <div class="section2__item">Proyecto 5</div>
+            <div class="section2__item">Proyecto 6</div>
+        </div>
+    </section>
+    <!------------- SECTION 3 start -- PROYECTOS ------------->
+
+
+    <!------------- CONTACTOS start ------------->
+    <section class="section4" id="3">
+        <h2 class="section4__titulo">Contacto</h2>
+        <form class="section4__cont">
+            <label for="" class="section4__label" >Nombre</label>
+            <input type="text" class="section4__input" placeholder="James">
+            <label for="" class="section4__label" >Apellido</label>
+            <input type="text" class="section4__input" placeholder="Lopez">
+            <label for="" class="section4__label" >Email</label>
+            <input type="email" class="section4__input" placeholder="ejemplo@gmail.com">
+            <label for="" class="section4__label" >Mensaje</label>
+            <textarea name="" id="" class="section4__textarea" placeholder="Escribe tu mensaje"></textarea>
+            <input type="submit" role="button" class="section4__submit">
+        </form>
+    </section>
+    <!------------- CONTACTOS end------------->
+
+    <!------------- FOOTER start ------------->
+    <footer id="2">
+        <p>
+            Copyright 2026
+        </p>
+        <p class="p2" >
+            Proyecto de práctica de estudio de Ulises Chevalley
+        </p>
+    </footer>
+    <!------------- FOOTER start ------------->
+</body>
+</html>
