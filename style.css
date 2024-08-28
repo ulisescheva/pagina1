@@ -384,7 +384,7 @@ margin: auto ;
 }
 
 .section2__item{
-    background-image: linear-gradient(#2225, #2225), url(img/CIRO.jpg);
+    background-image: linear-gradient(#2225, #2225), url(/img/CIRO.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid #eee;
@@ -405,7 +405,7 @@ margin: auto ;
 }
 
 .section2__item:hover{
-    background-image: linear-gradient(#2220, #2220), url(img/CIRO.jpg);
+    background-image: linear-gradient(#2220, #2220), url(/img/CIRO.jpg);
 }
 
 
@@ -421,7 +421,7 @@ margin: auto ;
 }
 
 .section2__item{
-    background-image: linear-gradient(#222, #222) url(img/CIRO);
+    background-image: linear-gradient(#222, #222) url(/img/CIRO);
     background-size: cover;
     background-position: center;
     border: 2px solid #eee;
