@@ -329,7 +329,9 @@ margin: auto ;
     }
 
     .div-cont {
-        max-width: 450px;
+        min-width: 400px;
+        padding: 10px;
+        background-color: #ff0;
     }
     .s-t{
         padding: 10px 0 2px 0;
