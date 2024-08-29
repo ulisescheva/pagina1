@@ -326,8 +326,6 @@ margin: auto ;
         animation: aparecer both;
         animation-timeline: view();
         animation-range: cover 13% cover 40%;
-
-
     }
 
     .div-cont {
@@ -341,10 +339,6 @@ margin: auto ;
         padding: 10px;
     }
 
-    .s-text {
-        max-width: 370px;
-        padding: 20px 60px;
-    }
     .porcentajes2 {
         display: flex;
         flex-direction: column;
