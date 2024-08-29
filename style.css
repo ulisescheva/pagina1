@@ -331,7 +331,6 @@ margin: auto ;
     .div-cont {
         min-width: 400px;
         padding: 10px;
-        background-color: #ff0;
     }
     .s-t{
         padding: 10px 0 2px 0;
@@ -345,7 +344,7 @@ margin: auto ;
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 10px 0 0 60px;
+        padding: 10px 0 0 0;
 }
 
 
