@@ -328,10 +328,9 @@ margin: auto ;
         animation-range: cover 13% cover 40%;
     }
 
-        .div-cont {
+    .div-cont {
         min-width: 100vw;
         padding: 10px;
-        background-color: #ff0;
     }
     .s-t{
         padding: 10px 0 2px 0;
@@ -342,14 +341,14 @@ margin: auto ;
     }
 
     .s-text {
-        padding: 0;
+        padding: 0 30px;
     }
 
     .porcentajes2 {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 10px 20px;
+        padding: 10px 30px;
 }
 
 
